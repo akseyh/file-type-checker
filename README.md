@@ -61,6 +61,7 @@ Using npm:
 | flac   |
 | flv    |
 | gif    |
+| heic   |
 | ico    |
 | indd   |
 | jpeg   |
@@ -89,7 +90,6 @@ Using npm:
 | webm   |
 | webp   |
 | zip    |
-| heic   |
 
 ## Note
 
@@ -546,13 +546,13 @@ Returns a `boolean` indicating whether the file is a valid PSD image.
 
 </details>
 
-<details><summary>fileTypeChecker.isTFF(file)</summary>
+<details><summary>fileTypeChecker.isTTF(file)</summary>
 
-Checks whether a file is a TFF image by inspecting its file signature.
+Checks whether a file is a TTF image by inspecting its file signature.
 
 Parameters: - `file` : `Array<number>`, `ArrayBuffer`, or `Uint8Array` - Binary data represents the file content.
 
-Returns a `boolean` indicating whether the file is a valid TFF image.
+Returns a `boolean` indicating whether the file is a valid TTF image.
 
 </details>
 
